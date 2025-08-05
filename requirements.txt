@@ -1,0 +1,15 @@
+flask
+python-dotenv
+
+langchain
+langchain_community
+langchain-google-genai
+
+
+sentence-transformers
+
+pinecone-client
+
+pypdf
+
+google-generativeai
