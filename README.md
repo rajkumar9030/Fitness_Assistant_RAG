@@ -6,6 +6,9 @@ It provides personalized fitness guidance, workout plans, and general health tip
 
 ---
 
+![Architecture Diagram](images/img.png)
+
+
 ## 🚀 Features
 
 - **PDF Data Ingestion** – Reads and processes fitness-related PDF files.
