@@ -1,4 +1,4 @@
-# 🧠 Fitness Assistant Bot
+#  Fitness Assistant Bot
 
 This project is a fitness-focused AI chatbot powered by **Google Gemini** (via LangChain), integrated with **Pinecone Vector DB**, and customized with proprietary fitness PDF data.
 
@@ -9,7 +9,7 @@ It provides personalized fitness guidance, workout plans, and general health tip
 ![Architecture Diagram](images/img.png)
 
 
-## 🚀 Features
+##  Features
 
 - **PDF Data Ingestion** – Reads and processes fitness-related PDF files.
 - **Text Chunking** – Splits content into manageable overlapping chunks for better contextual understanding.
@@ -20,7 +20,7 @@ It provides personalized fitness guidance, workout plans, and general health tip
 
 ---
 
-## 🏗 Architecture
+##  Architecture
 
 ```plaintext
 +--------------+       +----------------+       +----------------------------+       +----------------+
@@ -35,21 +35,21 @@ It provides personalized fitness guidance, workout plans, and general health tip
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 | Component        | Technology                                   |
 |------------------|-----------------------------------------------|
-| 🧠 LLM           | Google Gemini 2.0 Flash (`gemini-pro`)        |
-| 🧬 Embeddings    | `BAAI/bge-large-en-v1.5` (HuggingFace)        |
-| 🔍 Vector DB     | Pinecone                                      |
-| 🛠 Framework     | LangChain + LangChain Community               |
-| 🌐 Web UI        | Flask                                         |
-| 📄 PDF Parsing   | LangChain’s PyPDFLoader                       |
+|  LLM           | Google Gemini 2.0 Flash (`gemini-pro`)        |
+|  Embeddings    | `BAAI/bge-large-en-v1.5` (HuggingFace)        |
+|  Vector DB     | Pinecone                                      |
+|  Framework     | LangChain + LangChain Community               |
+|  Web UI        | Flask                                         |
+|  PDF Parsing   | LangChain’s PyPDFLoader                       |
 | 🔒 Secrets       | Python Dotenv (`.env`)                        |
 
 ---
 
-## 🧪 Example Questions to Ask
+##  Example Questions to Ask
 
 Once your PDFs are embedded, you can ask:
 
@@ -62,38 +62,38 @@ Once your PDFs are embedded, you can ask:
 
 ## 🛠️ Setup Instructions
 
-### 1. ✅ Clone the repository
+### 1.  Clone the repository
 
 ```bash
 git clone https://github.com/your-username/fitness-chatbot.git
 cd fitness-chatbot
 ```
 
-### 2. ✅ Create and activate virtual environment
+### 2.  Create and activate virtual environment
 
 ```bash
 python -m venv .venv
 source .venv/bin/activate   # On Windows: .venv\Scripts\activate
 ```
 
-### 3. ✅ Install dependencies
+### 3.  Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. ✅ Add your environment variables in `.env`
+### 4.  Add your environment variables in `.env`
 
 ```env
 PINECONE_API_KEY=your_pinecone_api_key
 GOOGLE_API_KEY=your_google_gemini_api_key
 ```
 
-### 5. ✅ Add PDFs
+### 5.  Add PDFs
 
 Place your fitness-related PDF files inside the `/pdfs` directory.
 
-### 6. ✅ Run the embedding & storage script
+### 6.  Run the embedding & storage script
 
 ```bash
 python store_index.py
@@ -106,7 +106,7 @@ This script:
 - Creates embeddings
 - Stores them in Pinecone vector database
 
-### 7. ✅ Start the chatbot
+### 7.  Start the chatbot
 
 ```bash
 python app.py
