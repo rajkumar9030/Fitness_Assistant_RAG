@@ -8,7 +8,7 @@ It provides personalized fitness guidance, workout plans, and general health tip
 
 ![Template oF Chat](images/img1.png)
 
-![Working Image](images/img1.png)
+![Working Image](images/img2.png)
 
 ##  Features
 
